@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
-import { ArrowLeft, Edit2, Trash2, User, Heart, Users } from 'lucide-react'
+import { ArrowLeft, CreditCard as Edit2, Trash2, User, Heart, Users } from 'lucide-react'
 import { supabase } from '../lib/supabase'
 import type { Character, Relationship } from '../types/database'
 

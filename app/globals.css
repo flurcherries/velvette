@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply min-h-screen bg-[radial-gradient(circle_at_top_left,_rgba(247,232,235,0.9),_transparent_40%),linear-gradient(135deg,_#fcf7f2_0%,_#f7e8eb_100%)] text-ink antialiased;
+  font-family: var(--font-laila), serif;
+}
+
+::selection {
+  @apply bg-rosewater text-ink;
+}
+
+.prose {
+  font-family: var(--font-garamond), serif;
+}

@@ -1,12 +1,18 @@
  /** @type {import('tailwindcss').Config} */
  export default {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    './app/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
       colors: {
+        blush: '#f7e8eb',
+        rosewater: '#f4d7dc',
+        sage: '#dfe8d9',
+        mint: '#e7f2e4',
+        parchment: '#fcf7f2',
+        ink: '#5a4d4f',
         cream: {
           50: '#FDF8F3',
           100: '#F9EDE0',
@@ -55,7 +61,7 @@
           700: '#3B5943',
           800: '#324A39',
           900: '#2A3E30',
-        }
+        },
       },
       fontFamily: {
         serif: ['Cormorant Garamond', 'Georgia', 'serif'],

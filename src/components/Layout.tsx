@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { PenTool, Users, Home, Menu, X } from 'lucide-react'
+import { PenTool, Users, Chrome as Home, Menu, X } from 'lucide-react'
 import { useState } from 'react'
 
 interface LayoutProps {

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Plus, PenTool, BookOpen, Search, Edit3 } from 'lucide-react'
+import { Plus, PenTool, BookOpen, Search, CreditCard as Edit3 } from 'lucide-react'
 import { supabase } from '../lib/supabase'
 import type { Story } from '../types/database'
 
